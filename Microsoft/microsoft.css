@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav1{
+
+}
+.header-set{
+    display: flex;
+}
+.header-subset{
+    display: flex;
+}
+.header-subset img{
+    margin: 15px 10px 10px 75px;
+    width: 105px;
+    height: 22px;
+}
+.header-subset p{
+    margin: 20px 15px;
+    font-size: 13px;
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header-end-text{
+    margin-left: 500px;
+    font-size: 13px;
+    margin: 20px 15px 0px 480px;
+}
+.header-end-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav2{
+
+}
+.body-header{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP4-1399x600);
+    width: 1224px;
+    height: 425px;
+}
+.body-head{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Hero-MSCOM-Outlook-iOS-Android:VP4-1260x600);
+    width: 1224px;
+    height: 425px;
+}
+.body-header{
+    padding: 175px 0px 0px 125px;
+}
+.body-header span{
+    margin: 20px 0px;
+    font-size: xx-large;
+}
+.body-header p{
+    margin: 20px 0px;
+}
+.button-header{
+    margin: 0px 0px 0px 125px;
+}
+.header-button1{
+    border: none;
+    color: white;
+    background-color: rgb(8, 143, 206);
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.header-button1:hover{
+    background-color: rgb(8, 105, 161);
+}
+.header-button2{
+    border: none;
+    background-color: white;
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-button2:hover{
+    text-decoration: underline;
+}
+.nav3{
+
+}
+.body1{
+    display: flex;
+    margin: 100px 20px 0px 50px;
+    cursor: pointer;
+}
+.body1-textp1{
+    font-size: x-large;
+}
+.b{
+    margin: 10px 10px;
+}
+.b p{
+    margin: 10px;
+}
+.b span{
+    margin: 10px 0px;
+    color: rgb(53, 53, 255);
+    font-weight: 500;
+}
+.b span:hover{
+    text-decoration: underline;
+}
+.nav4{
+    
+}
+.nav5{
+
+}
+.nav6{
+
+}
+.body-end{
+    display: flex;
+    margin: 100px 0px 0px 60px;
+}
+.body-end-btn{
+    margin-left: 1225px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(167, 167, 167);
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+.body-end-btn:hover{
+    background-color: white;
+    box-shadow: black 10px;
+}
+footer{
+    box-shadow: none;
+    background-color: rgb(236, 236, 236);
+}
+.footer{
+    display: flex;
+}
+.footer1 p{
+    font-size: 11px;
+    padding: 10px 50px;
+}
+.footer1 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-p1{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px 50px 0px 50px;
+}
+.last-set{
+    font-size: 12px;
+    margin: 50px 0px 0px 50px;
+    display: flex;
+}
+.last-set p{
+    margin: 10px;
+}
+.last-set p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.end{
+    margin-left: 450px;
+    display: flex;
+}

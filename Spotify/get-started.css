@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+}
+.nav1{
+    padding: 13px 25px;
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+.spotify-logo img{
+    cursor: pointer;
+    width: 50px;
+    margin-left: 75px;
+}
+.spotify-text p{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    padding-top: 15px;
+    cursor: pointer;}
+.lower-section{
+    background: linear-gradient(rgba(26, 26, 26, 0.9) 0%, rgb(0, 0, 0) 100%);
+    padding: 100px 300px;
+}
+.nav2{
+    box-shadow: none;
+    padding: 50px 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+.get-started-info h1{
+    color: white;
+    font-size: 50px;
+}
+.get-started-info button{
+
+}
+.btn1{
+    background-color: black;
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: 700;
+    padding: 15px 75px;
+    margin: 5px;
+    border-width: 1px;
+}
+.btn2{
+    background-color: black;
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: 700;
+    padding: 15px 70px;
+    margin: 5px;
+    border-width: 1px;
+}
+.btn3{
+    background-color: black;
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: 700;
+    padding: 15px 80px;
+    margin: 5px;
+    border-width: 1px;
+}
+.btn4{
+    background-color: black;
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: 700;
+    padding: 15px 50px;
+    margin: 5px;
+    border-width: 1px;
+}
+hr{
+    width: 500px;
+    margin: 30px 125px;
+}
+.nav3{
+    text-align: center;
+}

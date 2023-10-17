@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 45px;
+}
+.list-items ul{
+    display: flex;
+    cursor: pointer;
+    padding: 0px 100px 50px 0px;
+}
+.list-items li{
+    margin: 65px 40px 0px 0px;
+}
+.list-items img{
+    width: 30px;
+    padding: 65px 0px 0px 0px;
+}
+.btn-nav{
+    padding-top: 65px;
+}
+.btn-nav button{
+    padding: 10px 25px;
+    border: none;
+    background-color: #ffbc0d;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-one{
+    display: flex;
+    padding: 10px 20px 0px 50px;
+}
+.section-one img{
+    width: 750px;
+    object-fit: contain;
+}
+.section-text{
+    padding: 0px 30px 30px 30px;
+}
+.section-text h1{
+    padding: 115px 20px 0px 0px;
+    font-size: 40px;
+}
+.section-text-p1{
+    padding: 20px 0px 10px 0px;
+}
+.section-text-p1 span a{
+    color: #006bae;
+}
+.section-text-p2{
+    padding: 10px 0px 0px 0px;
+}
+.section-text-p3{
+    padding: 20px 0px 0px 0px;
+    font-size: 10px;
+}
+.section-btn{
+    padding: 40px 0px 0px 0px;
+}
+.section-btn button{
+    padding: 12px 35px;
+    border: none;
+    background-color: #ffbc0d;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+footer{
+    padding: 10px 40px 50px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+footer li{
+    cursor: pointer;
+}
+.list-items-header{
+    font-weight: bold; 
+}
+
+footer li{
+    margin: 15px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 50px 60px;
+}
+.socials ul{
+    display: flex;
+}
+.socials li{
+    margin: 0px 7px;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+    padding: 65px 65px 0px 0px;
+    cursor: pointer;
+}
+.list-item ul{
+    display: flex;
+}
+.list-item li{
+    margin: 10px 28px 100px 0px;
+}
+.list-items-2 ul{
+    display: flex;
+    padding: 0px 0px 0px 200px;
+}
+.list-items-2 li{
+    font-size: 14px;
+    margin: 70px 28px 0px 0px;
+    color: #292929;
+    cursor: pointer;
+    line-height: 24px;
+    
+}
+.list-items-3 li{
+    font-size: 14px;
+    padding: 65px 0px 0px 0px;
+    color: #292929;
+    cursor: pointer;
+    
+}
+.cursor li{
+    cursor: pointer;
+}
+.align{
+    padding: 0px 25px 0px 0px;
+    width: 17px;
+    cursor: pointer;
+}
+.align img{
+    cursor: pointer;
+    width: 17PX;
+    padding: ;
+}
+.location{
+    margin: 65px 0px 0px 0px;
+}

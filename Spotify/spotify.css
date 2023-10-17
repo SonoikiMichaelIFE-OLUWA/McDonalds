@@ -1,0 +1,597 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif))
+}
+.nav1{
+    padding: 13px 25px;
+    display: flex;
+    background-color: black;
+    width: 1299px;
+}
+.spotify-logo img{
+    cursor: pointer;
+    width: 50px;
+    margin-left: 75px;
+}
+.spotify-text p{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 520px;
+}
+.header p{
+    padding: 15px 18px;
+    padding-top: 18px;
+}
+.header div{
+    display: flex;
+}
+.header-p1{
+    color: white;
+    padding: 18px 17px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+.header-p1:hover{
+    color: rgb(30, 215, 96);
+}
+.header-p2{
+    color: rgb(217, 218, 220);
+    padding: 18px 17px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+.header-p2:hover{
+    color: rgb(30, 215, 96);
+}
+.header-p3{
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.nav2{
+    padding: 100px 0px;
+    background-color: #1d75de;
+}
+.second-header-p1 p{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0px 0px 90px;
+}
+.second-header-p2 p{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px 0px 90px;
+}
+.second-header-btn{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px 0px 90px;
+}
+.second-header-btn1{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+}
+.second-header-btn1:hover{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 14px 26px 14px 26px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.second-header-btn2{
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #1d75de;
+    border-color: white;
+    border-width: 2px;
+    font-weight: 700;
+}
+.second-header-btn2:hover{
+    color: white;
+    font-size: 16px;
+    padding: 15px 31px;
+    border-radius: 50px;
+    background-color: #085ec7;
+    border-color: white;
+    border-width: 2px;
+    font-weight: 750;
+    cursor: pointer;
+}.second-header-p3{
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: xx-small;
+}
+.second-header-p3 span{
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav3{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+.body-p1{
+    font-size: 40PX;
+    font-weight: 700;
+    margin: 50px 0px;
+}
+.body-end{
+    display: flex;
+    justify-content: space-between;
+}
+.body-end img{
+    margin-bottom: 50px;
+}
+.body-img1{
+    margin: 20px 0px 0px 150px;
+}
+.body-img1 img{
+    width: 150px;
+}
+.body-text-p1{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.body-text1-p2{
+    font-size: 16px;
+}
+.body-img2{
+    margin: 20px 0px 0px 0px;
+}
+.body-img3{
+    margin: 20px 0px 0px 0px;
+}
+.body-img3 img{
+    width: 150px;
+}
+.body-img4{
+    margin: 20px 100px 0px 0px;
+}
+.body-img4 img{
+    width: 150px;
+}
+.nav4{
+    width: 0px 100px;
+    background-color: #e6e6e6;
+}
+.section4-text{
+    text-align: center;
+}
+.section4-text-p1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0px 0px 0px;
+}
+.section4-text-p2{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.section4-payment{
+    display: flex;
+}
+.section4-payment-p1{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px,
+                rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin: 75px 0px 50px 100px;
+}
+.section4-payment-p1 button{
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.section4-payment-btn1{
+    color: white;
+    background-color: #1d75de;
+    border: none;
+    margin: 10px 5px 5px 5px;
+    cursor: text;
+}
+.section4-payment-btn2{
+    color: #1d75de;
+    background-color: white;
+    border-width: 1px;
+    border-color: #1d75de;
+    margin: 5px;
+    cursor: text;
+}
+.section4-payment-textp1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 5px 0px 5px 0px;
+}
+.section4-payment-textp2{
+    margin: 10px 0px 10px 0px;
+}
+.line4{
+    width: 235px;
+    margin: 20px 5px 10px 5px;
+}
+.section4-payment-p2{
+    margin-bottom: 75px;
+}
+.section4-payment-p2 ul{
+    margin: 20px 5px;
+}
+.section4-payment-p2 p{
+    margin: 5px 10px;
+}
+.section4-payment-p2-1{
+    display: flex;
+}
+.section4-payment-p2-1 img{
+    width: 25px;
+    height: 25px;
+}
+.section4-payment-btn3-head{
+    text-align: center;
+}
+.section4-payment-btn3{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 13px 80px;
+    border-radius: 100px;
+}
+.section4-payment-btn3:hover{
+    padding: 15px 85px;
+    border-radius: 100px;
+    background-color: black;
+}
+.section4-text-p3{
+    padding-top: 16px;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    padding-bottom: 0px;
+}
+.section4-text-p3 span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section5-payment-p1{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px,
+                rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin: 75px 0px 50px 15px;
+}
+.section5-payment-p1 button{
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.section5-payment-btn1{
+    color: white;
+    background-color: #1d75de;
+    border: none;
+    margin: 10px 5px 5px 5px;
+    cursor: text;
+}
+.section5-payment-btn2{
+    color: #1d75de;
+    background-color: white;
+    border-width: 1px;
+    border-color: #1d75de;
+    margin: 5px;
+    cursor: text;
+}
+.section5-payment-textp1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 5px 0px 5px 0px;
+}
+.section5-payment-textp2{
+    margin: 10px 0px 10px 0px;
+}
+.line5{
+    width: 235px;
+    margin: 60px 5px 0px 5px;
+}
+.section5-payment-p2{
+    margin-bottom: 65px;
+}
+.section5-payment-p2 ul{
+    margin: 20px 5px;
+}
+.section5-payment-p2 p{
+    margin: 5px 10px;
+}
+.section5-payment-p2-1{
+    display: flex;
+}
+.section5-payment-p2-1 img{
+    width: 25px;
+    height: 25px;
+}
+.section5-payment-btn3-head{
+    text-align: center;
+}
+.section5-payment-btn3{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 13px 80px;
+    border-radius: 100px;
+}
+.section5-payment-btn3:hover{
+    padding: 15px 85px;
+    border-radius: 100px;
+    background-color: black;
+}
+.section5-text-p3{
+    padding-top: 16px;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    padding-bottom: 0px;
+}
+.section5-text-p3 span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section6-payment-p1{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px,
+                rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin: 75px 0px 50px 15px;
+}
+.section6-payment-p1 button{
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.section6-payment-btn1{
+    color: white;
+    background-color: #1d75de;
+    border: none;
+    margin: 10px 5px 5px 5px;
+    cursor: text;
+}
+.section6-payment-btn2{
+    color: #1d75de;
+    background-color: white;
+    border-width: 1px;
+    border-color: #1d75de;
+    margin: 5px;
+    cursor: text;
+}
+.section6-payment-textp1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 5px 0px 5px 0px;
+}
+.section6-payment-textp2{
+    margin: 10px 0px 10px 0px;
+}
+.line6{
+    width: 235px;
+    margin: 60px 5px 10px 5px;
+}
+.section6-payment-p2{
+    margin-bottom: 25px;
+}
+.section6-payment-p2 ul{
+    margin: 20px 5px;
+}
+.section6-payment-p2 p{
+    margin: 5px 10px;
+}
+.section6-payment-p2-1{
+    display: flex;
+}
+.section6-payment-p2-1 img{
+    width: 25px;
+    height: 25px;
+}
+.section6-payment-btn3-head{
+    text-align: center;
+}
+.section6-payment-btn3{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 13px 80px;
+    border-radius: 100px;
+}
+.section6-payment-btn3:hover{
+    padding: 15px 85px;
+    border-radius: 100px;
+    background-color: black;
+}
+.section6-text-p3{
+    padding-top: 16px;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    padding-bottom: 0px;
+}
+.section6-text-p3 span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section7-payment-p1{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px,
+                rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin: 75px 100px 50px 15px;
+}
+.section7-payment-p1 button{
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.section7-payment-btn1{
+    color: white;
+    background-color: #1d75de;
+    border: none;
+    margin: 10px 5px 5px 5px;
+    cursor: text;
+}
+.section7-payment-btn2{
+    color: #1d75de;
+    background-color: white;
+    border-width: 1px;
+    border-color: #1d75de;
+    margin: 5px;
+    cursor: text;
+}
+.section7-payment-textp1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 5px 0px 5px 0px;
+}
+.section7-payment-textp2{
+    margin: 10px 0px 10px 0px;
+}
+.line7{
+    width: 235px;
+    margin: 20px 5px 10px 5px;
+}
+.section7-payment-p2{
+    margin-bottom: 30px;
+}
+.section7-payment-p2 ul{
+    margin: 20px 5px;
+}
+.section7-payment-p2 p{
+    margin: 5px 10px;
+}
+.section7-payment-p2-1{
+    display: flex;
+}
+.section7-payment-p2-1 img{
+    width: 25px;
+    height: 25px;
+}
+.section7-payment-btn3-head{
+    text-align: center;
+}
+.section7-payment-btn3{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 13px 80px;
+    border-radius: 100px;
+}
+.section7-payment-btn3:hover{
+    padding: 15px 85px;
+    border-radius: 100px;
+    background-color: black;
+}
+.section7-text-p3{
+    padding-top: 16px;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    padding-bottom: 0px;
+}
+.section7-text-p3 span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer{
+    box-shadow: none;
+    background-color: black;
+}
+.footer-p1{
+    display: flex;
+}
+.footer-subset:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-subset2:hover{
+    color: rgb(30, 215, 96);
+    cursor: pointer;
+}
+.footer-spotify-logo img{
+    cursor: pointer;
+    width: 50px;
+    padding: 75px 0px 0px 105px;
+}
+.footer-spotify-text p{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    padding: 85px 0px 0px 0px;
+}
+.footer-p2{
+    color: white;
+    padding-top: 75px;
+}
+.footer-subset{
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 12px;
+}
+.footer-subset:hover{
+    cursor: pointer;
+}
+.footer-p2 p{
+    margin: 20px 60px;
+}
+.footer-img{
+    justify-content: space-between;
+    padding: 75px 125px;
+}
+.footer-img img{
+    height: 200px
+    width: 100px;
+    background-color: grey;
+    cursor: pointer;
+}
+.footer-subset3{
+    color: grey;
+    margin: 45px 10px;
+
+    font-size: 12px;
+}
+.footer-subset3:hover{
+    color: green;
+    cursor: pointer;
+}
+.footer-end{
+    display: flex;
+    margin-left: 100px;
+}
